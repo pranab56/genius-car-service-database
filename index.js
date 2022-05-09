@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/',(req,res)=>{
-    res.send('genius car service ready')
+    res.send('genius car service ready and connect')
 })
 
 
